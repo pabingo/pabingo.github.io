@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Shape|Shifter|Type|to start|#rectangle|#countdown 3||');
+      S.UI.simulate('陈星霓|你成功的|让我花钱|一块钱|买了个域名|好了|明人|不说暗话|现在是|北京时间|#time|我将用|我的方式|送上祝福|#countdown 5|生日快乐');
     }
 
     S.Drawing.loop(function () {
@@ -211,7 +211,7 @@ S.UI = (function () {
         default:
           S.Shape.switchShape(S.ShapeBuilder.letter(current[0] === cmd ? 'What?' : current));
       }
-    }, 2000, sequence.length);
+    }, 4000, sequence.length);//时间延迟
   }
 
   function checkInputWidth(e) {
