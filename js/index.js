@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('陈星霓|你成功的|让我花钱|一块钱|买了个域名|好了|明人|不说暗话|现在是|北京时间|#time|我将用|我的方式|送上祝福|#countdown 5|生日快乐');
+      S.UI.simulate('这是我|给你的|生日礼物|现在是|北京时间|#time|我在这|送上祝福|#countdown 5|陈星霓|生日快乐');
     }
 
     S.Drawing.loop(function () {
